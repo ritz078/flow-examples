@@ -1,10 +1,10 @@
 /*@flow*/
 
-function len(x: string): number {
-    return x.length;
+function foo(x,y) {
+  return x + y;
 }
 
-len(10);
+foo('Hello',11);
 /**
  * This code shows error as the function expects a string
  * as an argument but we are providing a number.

@@ -1,7 +1,7 @@
 /*@flow*/
 
-function len(x){
-	return x.length;
-};
+function foo(x) {
+  return x.split(' ');
+}
 
-len(40);
+foo(34);
