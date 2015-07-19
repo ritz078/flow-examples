@@ -1,10 +1,10 @@
 /*@flow*/
 
-function foo(x : number,y : number) : number{
+function foo(x: number, y: number): number {
   return x + y;
 }
 
-foo('Hello',11);
+foo('Hello', 11);
 
 /**
  * This code shows error as the function expects a number
